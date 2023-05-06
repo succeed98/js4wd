@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
    <!--
       JavaScript 6th Edition
@@ -43,28 +44,32 @@
             <li><a href="#">Get An Estimate</a></li>
          </ul>
       </nav>
-        
+
       <aside>
          <ul>
-            <li>Blanket Flower</li>
-            <li>Hedge Rose</li>
-            <li>Little Bluestem</li>
+            <li id="blanket" onclick="document.getElementById('plantImg').src = './images/blanket.jpg'">Blanket Flower</li>
+            <li id="rugosa" onclick="document.getElementById('plantImg').src = './images/rugosa.jpg'">Hedge Rose</li>
+            <li id="bluestem" onclick="document.getElementById('plantImg').src = './images/bluestem.jpg'">Little Bluestem</li>
          </ul>
       </aside>
-    
+
       <article>
          <figure>
-             <figcaption>
+            <figcaption>
+               <div>
+                  <img id="plantImg" src="" alt="">
+               </div>
                <script>
-                  
+
                </script>
             </figcaption>
          </figure>
       </article>
-    
+
       <footer>
          <p>Tinley Xeriscapes &bull; Tinley Park, IL 60477</p>
       </footer>
    </div>
 </body>
+
 </html>
