@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.card {
+  padding: 10px 15px 10px 25px;
+}
+
+.card p {
+  font-size: 20px;
+}
